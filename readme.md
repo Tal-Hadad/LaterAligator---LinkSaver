@@ -1,2 +1,21 @@
-A simple useful chrome extension i made for practice that allows you to save links so you can return to them later instead of have 30 opened tabs like all of us are guilty of.
-The extension uses vanila JavaScript LocalStorage and ChromeApi to save the current tabs and make sure it save even when refreshing
+A simple and useful Chrome extension i made for practice that lets you save links for later, so you do not end up with 30 open tabs at once. It saves both manually entered links and the current active tab, using the Chrome Tabs API and local storage to keep data available across refreshes and browser sessions.
+
+Features
+Save any link manually from the input field.
+
+Save the current open tab with one click using the Chrome Tabs API.
+
+Persist saved links with localStorage, so they remain after refresh or reopening the browser.
+
+Remove individual links or clear the whole list.
+
+Built With
+HTML
+
+CSS
+
+Vanilla JavaScript
+
+localStorage
+
+Chrome Tabs API
